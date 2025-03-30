@@ -1,0 +1,3 @@
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+error: [Errno 17] File exists: '/home/dgomartir/ros2_ws/build/mob_rov/launch/sim.launch.py' -> '/home/dgomartir/ros2_ws/install/mob_rov/share/mob_rov/launch/sim.launch.py'

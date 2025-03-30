@@ -1,0 +1,1 @@
+/home/dgomartir/ros2_ws/src/mob_rov/launch/sim2.launch.py

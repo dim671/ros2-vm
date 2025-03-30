@@ -1,0 +1,21 @@
+[1.281s] Invoking command in '/home/dgomartir/ros2_ws/build/mob_rov': PYTHONPATH=/home/dgomartir/ros2_ws/build/mob_rov/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dgomartir/ros2_ws/install/mob_rov/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/dgomartir/ros2_ws/build/mob_rov/build --no-deps symlink_data
+[1.783s] running develop
+[1.786s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.786s]   warnings.warn(
+[2.107s] running egg_info
+[2.108s] writing mob_rov.egg-info/PKG-INFO
+[2.111s] writing dependency_links to mob_rov.egg-info/dependency_links.txt
+[2.111s] writing entry points to mob_rov.egg-info/entry_points.txt
+[2.111s] writing requirements to mob_rov.egg-info/requires.txt
+[2.111s] writing top-level names to mob_rov.egg-info/top_level.txt
+[2.114s] reading manifest file 'mob_rov.egg-info/SOURCES.txt'
+[2.115s] writing manifest file 'mob_rov.egg-info/SOURCES.txt'
+[2.118s] running build_ext
+[2.119s] Creating /home/dgomartir/ros2_ws/install/mob_rov/lib/python3.10/site-packages/mob-rov.egg-link (link to .)
+[2.120s] 
+[2.122s] Installed /home/dgomartir/ros2_ws/build/mob_rov
+[2.122s] running symlink_data
+[2.122s] symbolically linking /home/dgomartir/ros2_ws/build/mob_rov/launch/presim.launch.py -> /home/dgomartir/ros2_ws/install/mob_rov/share/mob_rov/launch
+[2.123s] error: [Errno 17] File exists: '/home/dgomartir/ros2_ws/build/mob_rov/launch/sim.launch.py' -> '/home/dgomartir/ros2_ws/install/mob_rov/share/mob_rov/launch/sim.launch.py'
+[2.124s] symbolically linking /home/dgomartir/ros2_ws/build/mob_rov/launch/sim.launch.py -> /home/dgomartir/ros2_ws/install/mob_rov/share/mob_rov/launch
+[2.181s] Invoked command in '/home/dgomartir/ros2_ws/build/mob_rov' returned '1': PYTHONPATH=/home/dgomartir/ros2_ws/build/mob_rov/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dgomartir/ros2_ws/install/mob_rov/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/dgomartir/ros2_ws/build/mob_rov/build --no-deps symlink_data
