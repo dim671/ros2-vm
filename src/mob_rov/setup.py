@@ -13,16 +13,18 @@ setup(
         ('share/ament_index/resource_index/packages',
          ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-
+        
         # Install all launch files
         ('share/' + package_name + '/launch', glob('launch/*.launch.py')),
-
+        
         # Install URDF and Xacro files
-        # This grabs all .urdf and .xacro files in the urdf folder
         ('share/' + package_name + '/urdf', glob('urdf/*.urdf') + glob('urdf/*.xacro')),
-
-        # Install config files (e.g., ros2_control.yaml)
-        ('share/' + package_name + '/config', glob('config/*.yaml')),
+        
+        # Install config files, including YAML and RViz files
+        ('share/' + package_name + '/config', glob('config/*.yaml') + glob('config/*.rviz')),
+        
+        # Install Gazebo world files
+        ('share/' + package_name + '/worlds', glob('worlds/*.world')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,

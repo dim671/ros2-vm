@@ -1,0 +1,20 @@
+[3.543s] Invoking command in '/home/dgomartir/ros2_ws/src/mob_rov': PYTHONPATH=/home/dgomartir/ros2_ws/build/mob_rov/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dgomartir/ros2_ws/install/mob_rov/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mob_rov build --build-base /home/dgomartir/ros2_ws/build/mob_rov/build install --record /home/dgomartir/ros2_ws/build/mob_rov/install.log --single-version-externally-managed install_data
+[4.517s] running egg_info
+[4.517s] writing ../../build/mob_rov/mob_rov.egg-info/PKG-INFO
+[4.520s] writing dependency_links to ../../build/mob_rov/mob_rov.egg-info/dependency_links.txt
+[4.520s] writing entry points to ../../build/mob_rov/mob_rov.egg-info/entry_points.txt
+[4.526s] writing requirements to ../../build/mob_rov/mob_rov.egg-info/requires.txt
+[4.527s] writing top-level names to ../../build/mob_rov/mob_rov.egg-info/top_level.txt
+[4.534s] reading manifest file '../../build/mob_rov/mob_rov.egg-info/SOURCES.txt'
+[4.545s] writing manifest file '../../build/mob_rov/mob_rov.egg-info/SOURCES.txt'
+[4.545s] running build
+[4.546s] running build_py
+[4.546s] running install
+[4.546s] running install_lib
+[4.557s] running install_data
+[4.557s] running install_egg_info
+[4.559s] removing '/home/dgomartir/ros2_ws/install/mob_rov/lib/python3.10/site-packages/mob_rov-0.0.0-py3.10.egg-info' (and everything under it)
+[4.561s] Copying ../../build/mob_rov/mob_rov.egg-info to /home/dgomartir/ros2_ws/install/mob_rov/lib/python3.10/site-packages/mob_rov-0.0.0-py3.10.egg-info
+[4.571s] running install_scripts
+[4.645s] writing list of installed files to '/home/dgomartir/ros2_ws/build/mob_rov/install.log'
+[4.742s] Invoked command in '/home/dgomartir/ros2_ws/src/mob_rov' returned '0': PYTHONPATH=/home/dgomartir/ros2_ws/build/mob_rov/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dgomartir/ros2_ws/install/mob_rov/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mob_rov build --build-base /home/dgomartir/ros2_ws/build/mob_rov/build install --record /home/dgomartir/ros2_ws/build/mob_rov/install.log --single-version-externally-managed install_data

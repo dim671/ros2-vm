@@ -8,10 +8,16 @@ setup.py
 ../../build/mob_rov/mob_rov.egg-info/requires.txt
 ../../build/mob_rov/mob_rov.egg-info/top_level.txt
 ../../build/mob_rov/mob_rov.egg-info/zip-safe
+config/drive_bot.rviz
+config/mapper_params_online_async.yaml
+config/my_controllers.yaml
 config/nav2_params.yaml
 config/ros2_control.yaml
 config/slam_config.yaml
+config/twist_mux.yaml
+launch/joystick.launch.py
 launch/lidar.launch.py
+launch/nav_slam.launch.py
 launch/presim.launch.py
 launch/sim.launch.py
 launch/sim2.launch.py
@@ -24,3 +30,5 @@ urdf/gazebo_control.xacro
 urdf/lidar.xacro
 urdf/mob_rov.urdf
 urdf/mob_rov2.xacro
+urdf/ros2_control.xacro
+worlds/obstacles.world

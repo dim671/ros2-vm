@@ -66,6 +66,17 @@
     <!-- Optionally add geometry here -->
   </link>
 
+  <!-- BASE_FOOTPRINT LINK -->
+
+  <joint name="base_footprint_joint" type="fixed">
+      <parent link="base_link"/>
+      <child link="base_footprint"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <link name="base_footprint">
+  </link>  
+
   <!-- Chassis link -->
   <joint name="chassis_joint" type="fixed">
     <parent link="base_link"/>
@@ -170,7 +181,8 @@
     <mu2 value="0.001"/>
   </gazebo>
   
-  <xacro:include filename="gazebo_control.xacro" />
+  <!-- <xacro:include filename="gazebo_control.xacro" /> -->
+  <xacro:include filename="ros2_control.xacro" />
 
   <xacro:include filename="lidar.xacro" />
 
